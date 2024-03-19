@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'roleway';
+    src: url('../font/Raleway.ttf');
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'roleway';
+}
+
+
+
+.header_content {
+    padding: 0 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    span {
+        color: #252536;
+        font-size: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #252536;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .contactInfo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+.nav_links_row {
+    margin-right: 39px;
+    a {
+        margin-right: 15px;
+    }
+    :last-child {
+        margin-right: 0;
+    }
+}
+
+.nav_link_last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    .nav_link_last_content {
+        display: flex;
+        gap: 5px;
+    }
+}
+
